@@ -1,0 +1,42 @@
+
+.counter{
+    
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 4px solid  rgba(128, 128, 128, 0.884);
+}
+h1{
+    text-align: center;
+    color:  rgba(128, 128, 128, 0.884);
+    font-size: 32px;
+    
+    
+}
+.container {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    
+}
+.minus{
+   font-size: 54px;
+   width: 100px;
+   cursor: pointer;
+   text-align: center;
+   margin-left: 20px;
+   background-color: rgb(255, 0, 0);
+
+}
+.plus {
+    font-size: 54px;
+   width: 100px;
+   cursor: pointer;
+   text-align: center;
+   margin-right: 20px;
+   background-color: rgba(0, 128, 0, 0.623);
+}
